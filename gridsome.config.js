@@ -56,7 +56,7 @@ module.exports = {
           title: node.title,
           description: node.summary,
           url: 'https://newwalls.netlify.com' + node.path,
-          author: 'Andre Madarang',
+          author: 'JCR',
           date: node.date
         }),
         output: {
