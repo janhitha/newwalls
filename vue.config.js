@@ -1,3 +1,5 @@
 module.exports = {
-publicPath: ‘<newwalls>’
-} 
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/newwalls/'
+    : '/'
+}
